@@ -14,8 +14,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $pages = ["Home", "about", "contact", "business", "joinUs"];
-    return view('home', $pages);
+    $pages = ["home", "about", "contact", "business", "joinUs"];
+    return view('home', compact("pages"));
 })->name("home");
 
 Route::get('/about', function () {
