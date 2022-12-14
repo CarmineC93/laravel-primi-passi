@@ -14,7 +14,9 @@
         <nav>
             <h1>Hello World</h1>
             <ul>
-                <li></li>
+                @foreach ($pages as $page)
+                    <li>{{ $page }}</li>
+                @endforeach
 
             </ul>
         </nav>
