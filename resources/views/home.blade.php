@@ -15,7 +15,9 @@
             <h1>Hello World</h1>
             <ul>
                 @foreach ($pages as $page)
-                    <li>{{ $page }}</li>
+                    <li>
+                        <a href={{ route($page) }}>{{ $page }}</a>
+                    </li>
                 @endforeach
 
             </ul>
