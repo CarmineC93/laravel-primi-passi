@@ -3,3 +3,4 @@
 <a href="/contact">contact</a>
 <a href="/business">business</a>
 <a href="/join">join</a>
+<h2>ABOUT</h2>
